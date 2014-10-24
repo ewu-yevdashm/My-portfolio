@@ -1,0 +1,5 @@
+ABOUT:
+
+This portfolio example is a Linux Shell that I built. This is an imitation of the bash shell in c but dont fully in c, so basically a recreation of it.
+
+This shows that I understand how the system works and that Im proficient in C.

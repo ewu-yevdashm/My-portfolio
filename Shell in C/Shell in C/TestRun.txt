@@ -1,0 +1,368 @@
+Mark Yevdash
+
+These are the official tests that I did on my shell before turning it in. 
+
+To the best of my knowledge there are no leaks or errors of any kind. Everything that was stated in the PDF as guidelines should work.
+
+
+parallels@ubuntu:~/Desktop$ valgrind ./shell
+==11332== Memcheck, a memory error detector
+==11332== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==11332== Using Valgrind-3.10.0.SVN and LibVEX; rerun with -h for copyright info
+==11332== Command: ./shell
+==11332== 
+/home/parallels/Desktop
+binaryToText.c~      cscd340lab3prob3.c~       dfl;kj	       linkedList.c		 pwd		      syscallout.txt~  text.txt
+CSCD 240	     cscd340lab3prob4.c~       grep	       linkedList.c~		 shell		      syscalls.c~      txtToBinary.c~
+CSCD 240.zip	     cscd340lab4prob1.c~       Homeworks       linkedList.h		 shellUtil.c	      SysCalls.java~   utility.c~
+cscd340_hw1.c~	     cscd340lab4prob2.c~       inProgress.zip  linkedList.h~		 shellUtil.c~	      test.txt	       utility.h~
+cscd340hw2.c	     cscd340lab4prob3.c~       input.txt       makefile			 shellUtil.h	      test.txt~        wc
+cscd340hw2.c~	     cscd340lab4prob4.c~       input.txt~      makefile~		 shellUtil.h~	      test.xt
+cscd340_lab2sigs.c~  cscd340_s13_lab1prob1.c~  jkl	       myTextInput.txt~		 sigcallout.txt~      test.xt~
+cscd340lab3prob1.c~  CSCD340.zip	       Labs	       Parallels Shared Folders  syscalloutjava.txt~  text.tx
+total 39928
+-rw-rw-r--  1 parallels parallels      985 Oct  2 16:06 binaryToText.c~
+drwxrwxrwx 24 parallels parallels     4096 Sep 24 10:51 CSCD 240
+-rw-rw-r--  1 parallels parallels  7629997 Oct  6 12:58 CSCD 240.zip
+-rw-rw-r--  1 parallels parallels      851 Sep 30 16:22 cscd340_hw1.c~
+-rw-rw-r--  1 parallels parallels    11522 Oct 18 03:11 cscd340hw2.c
+-rw-rw-r--  1 parallels parallels    11522 Oct 18 03:11 cscd340hw2.c~
+-rw-rw-r--  1 parallels parallels      309 Oct  2 23:23 cscd340_lab2sigs.c~
+-rw-rw-r--  1 parallels parallels      492 Oct  6 16:07 cscd340lab3prob1.c~
+-rw-rw-r--  1 parallels parallels     3170 Oct  8 20:46 cscd340lab3prob3.c~
+-rw-rw-r--  1 parallels parallels     2243 Oct  6 21:25 cscd340lab3prob4.c~
+-rw-rw-r--  1 parallels parallels     3250 Oct  8 22:00 cscd340lab4prob1.c~
+-rw-rw-r--  1 parallels parallels      733 Oct  8 22:16 cscd340lab4prob2.c~
+-rw-rw-r--  1 parallels parallels     4961 Oct 10 15:53 cscd340lab4prob3.c~
+-rw-rw-r--  1 parallels parallels     6061 Oct 10 10:29 cscd340lab4prob4.c~
+-rw-rw-r--  1 parallels parallels     1729 Oct  6 21:18 cscd340_s13_lab1prob1.c~
+-rw-rw-r--  1 parallels parallels 32920365 Sep 29 12:27 CSCD340.zip
+-rw-rw-r--  1 parallels parallels       28 Oct 17 22:34 dfl;kj
+-rw-rw-r--  1 parallels parallels        0 Oct 15 16:43 grep
+drwxrwxr-x  3 parallels parallels     4096 Oct  1 09:55 Homeworks
+-rw-rw-r--  1 parallels parallels    11092 Oct 16 16:10 inProgress.zip
+-rw-rw-r--  1 parallels parallels       24 Oct 16 13:52 input.txt
+-rw-rw-r--  1 parallels parallels      170 Sep 30 18:38 input.txt~
+-rw-rw-r--  1 parallels parallels        0 Oct 17 22:35 jkl
+drwxrwxr-x  6 parallels parallels     4096 Oct 15 23:57 Labs
+-rw-rw-r--  1 parallels parallels     8394 Oct 16 13:20 linkedList.c
+-rw-rw-r--  1 parallels parallels     8395 Oct 16 13:09 linkedList.c~
+-rw-rw-r--  1 parallels parallels     1269 Oct 15 21:58 linkedList.h
+-rw-rw-r--  1 parallels parallels     1204 Oct 15 21:46 linkedList.h~
+-rw-rw-r--  1 parallels parallels      123 Oct 18 02:22 makefile
+-rw-rw-r--  1 parallels parallels      126 Oct 18 02:18 makefile~
+-rw-rw-r--  1 parallels parallels        0 Oct  2 14:48 myTextInput.txt~
+lrwxrwxrwx  1 root      root            10 Sep 25 14:14 Parallels Shared Folders -> /media/psf
+-rw-------  1 parallels parallels      637 Oct 16 13:39 pwd
+-rwxrwxr-x  1 parallels parallels    33012 Oct 18 09:04 shell
+-rw-rw-r--  1 parallels parallels    16590 Oct 18 09:04 shellUtil.c
+-rw-rw-r--  1 parallels parallels    16602 Oct 18 09:02 shellUtil.c~
+-rw-rw-r--  1 parallels parallels     1563 Oct 18 01:20 shellUtil.h
+-rw-rw-r--  1 parallels parallels     1563 Oct 18 01:20 shellUtil.h~
+-rw-rw-r--  1 parallels parallels     7807 Oct  2 23:39 sigcallout.txt~
+-rw-rw-r--  1 parallels parallels    27007 Oct  3 08:14 syscalloutjava.txt~
+-rw-rw-r--  1 parallels parallels     3946 Oct  3 08:01 syscallout.txt~
+-rw-rw-r--  1 parallels parallels      245 Oct  2 16:49 syscalls.c~
+-rw-rw-r--  1 parallels parallels      373 Oct  2 16:44 SysCalls.java~
+-rw-rw-r--  1 parallels parallels       50 Oct 18 03:09 test.txt
+-rw-rw-r--  1 parallels parallels        3 Oct 16 13:21 test.txt~
+-rw-rw-r--  1 parallels parallels      398 Oct 18 08:50 test.xt
+-rw-rw-r--  1 parallels parallels      390 Oct 18 08:50 test.xt~
+-rw-rw-r--  1 parallels parallels      691 Oct 18 08:47 text.tx
+-rw-------  1 parallels parallels      691 Oct 18 08:47 text.txt
+-rw-rw-r--  1 parallels parallels      699 Oct  2 16:11 txtToBinary.c~
+-rw-rw-r--  1 parallels parallels     2108 Sep 30 19:23 utility.c~
+-rw-rw-r--  1 parallels parallels      337 Sep 29 11:44 utility.h~
+-rw-rw-r--  1 parallels parallels        0 Oct 17 10:55 wc
+?: clear
+
+?: ls  
+binaryToText.c~      cscd340lab3prob3.c~       dfl;kj          linkedList.c              pwd                  syscallout.txt~  text.txt
+CSCD 240             cscd340lab3prob4.c~       grep            linkedList.c~             shell                syscalls.c~      txtToBinary.c~
+CSCD 240.zip         cscd340lab4prob1.c~       Homeworks       linkedList.h              shellUtil.c          SysCalls.java~   utility.c~
+cscd340_hw1.c~       cscd340lab4prob2.c~       inProgress.zip  linkedList.h~             shellUtil.c~         test.txt         utility.h~
+cscd340hw2.c         cscd340lab4prob3.c~       input.txt       makefile                  shellUtil.h          test.txt~        wc
+cscd340hw2.c~        cscd340lab4prob4.c~       input.txt~      makefile~                 shellUtil.h~         test.xt
+cscd340_lab2sigs.c~  cscd340_s13_lab1prob1.c~  jkl             myTextInput.txt~          sigcallout.txt~      test.xt~
+cscd340lab3prob1.c~  CSCD340.zip               Labs            Parallels Shared Folders  syscalloutjava.txt~  text.tx
+?: ls &
+?: binaryToText.c~      cscd340lab3prob3.c~       dfl;kj          linkedList.c              pwd                  syscallout.txt~  text.txt
+CSCD 240             cscd340lab3prob4.c~       grep            linkedList.c~             shell                syscalls.c~      txtToBinary.c~
+CSCD 240.zip         cscd340lab4prob1.c~       Homeworks       linkedList.h              shellUtil.c          SysCalls.java~   utility.c~
+cscd340_hw1.c~       cscd340lab4prob2.c~       inProgress.zip  linkedList.h~             shellUtil.c~         test.txt         utility.h~
+cscd340hw2.c         cscd340lab4prob3.c~       input.txt       makefile                  shellUtil.h          test.txt~        wc
+cscd340hw2.c~        cscd340lab4prob4.c~       input.txt~      makefile~                 shellUtil.h~         test.xt
+cscd340_lab2sigs.c~  cscd340_s13_lab1prob1.c~  jkl             myTextInput.txt~          sigcallout.txt~      test.xt~
+cscd340lab3prob1.c~  CSCD340.zip               Labs            Parallels Shared Folders  syscalloutjava.txt~  text.tx
+
+?: junk &
+?: Error: Exec Failed
+==11385== 
+==11385== HEAP SUMMARY:
+==11385==     in use at exit: 0 bytes in 0 blocks
+==11385==   total heap usage: 335 allocs, 335 frees, 5,549 bytes allocated
+==11385== 
+==11385== All heap blocks were freed -- no leaks are possible
+==11385== 
+==11385== For counts of detected and suppressed errors, rerun with: -v
+==11385== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+?: ls & pwd & ls
+binaryToText.c~      cscd340lab3prob3.c~       dfl;kj          linkedList.c              pwd                  syscallout.txt~  text.txt
+CSCD 240             cscd340lab3prob4.c~       grep            linkedList.c~             shell                syscalls.c~      txtToBinary.c~
+CSCD 240.zip         cscd340lab4prob1.c~       Homeworks       linkedList.h              shellUtil.c          SysCalls.java~   utility.c~
+cscd340_hw1.c~       cscd340lab4prob2.c~       inProgress.zip  linkedList.h~             shellUtil.c~         test.txt         utility.h~
+cscd340hw2.c         cscd340lab4prob3.c~       input.txt       makefile                  shellUtil.h          test.txt~        wc
+cscd340hw2.c~        cscd340lab4prob4.c~       input.txt~      makefile~                 shellUtil.h~         test.xt
+cscd340_lab2sigs.c~  cscd340_s13_lab1prob1.c~  jkl             myTextInput.txt~          sigcallout.txt~      test.xt~
+cscd340lab3prob1.c~  CSCD340.zip               Labs            Parallels Shared Folders  syscalloutjava.txt~  text.tx
+/home/parallels/Desktop
+binaryToText.c~      cscd340lab3prob3.c~       dfl;kj          linkedList.c              pwd                  syscallout.txt~  text.txt
+CSCD 240             cscd340lab3prob4.c~       grep            linkedList.c~             shell                syscalls.c~      txtToBinary.c~
+CSCD 240.zip         cscd340lab4prob1.c~       Homeworks       linkedList.h              shellUtil.c          SysCalls.java~   utility.c~
+cscd340_hw1.c~       cscd340lab4prob2.c~       inProgress.zip  linkedList.h~             shellUtil.c~         test.txt         utility.h~
+cscd340hw2.c         cscd340lab4prob3.c~       input.txt       makefile                  shellUtil.h          test.txt~        wc
+cscd340hw2.c~        cscd340lab4prob4.c~       input.txt~      makefile~                 shellUtil.h~         test.xt
+cscd340_lab2sigs.c~  cscd340_s13_lab1prob1.c~  jkl             myTextInput.txt~          sigcallout.txt~      test.xt~
+cscd340lab3prob1.c~  CSCD340.zip               Labs            Parallels Shared Folders  syscalloutjava.txt~  text.tx
+?: ps
+  PID TTY          TIME CMD
+ 8677 pts/3    00:00:00 bash
+11332 pts/3    00:00:00 memcheck-amd64-
+11491 pts/3    00:00:00 ps
+?: ls -l | wc -w
+485
+?: ls - l | junk
+ls: cannot access -: No such file or directory
+ls: cannot access l: No such file or directory
+Exec Failed for postPipe Command
+: No such file or directory
+==11592== 
+==11592== HEAP SUMMARY:
+==11592==     in use at exit: 0 bytes in 0 blocks
+==11592==   total heap usage: 373 allocs, 373 frees, 6,568 bytes allocated
+==11592== 
+==11592== All heap blocks were freed -- no leaks are possible
+==11592== 
+==11592== For counts of detected and suppressed errors, rerun with: -v
+==11592== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+?: junk | ls -l
+total 39928
+-rw-rw-r--  1 parallels parallels      985 Oct  2 16:06 binaryToText.c~
+drwxrwxrwx 24 parallels parallels     4096 Sep 24 10:51 CSCD 240
+-rw-rw-r--  1 parallels parallels  7629997 Oct  6 12:58 CSCD 240.zip
+-rw-rw-r--  1 parallels parallels      851 Sep 30 16:22 cscd340_hw1.c~
+-rw-rw-r--  1 parallels parallels    11522 Oct 18 03:11 cscd340hw2.c
+-rw-rw-r--  1 parallels parallels    11522 Oct 18 03:11 cscd340hw2.c~
+-rw-rw-r--  1 parallels parallels      309 Oct  2 23:23 cscd340_lab2sigs.c~
+-rw-rw-r--  1 parallels parallels      492 Oct  6 16:07 cscd340lab3prob1.c~
+-rw-rw-r--  1 parallels parallels     3170 Oct  8 20:46 cscd340lab3prob3.c~
+-rw-rw-r--  1 parallels parallels     2243 Oct  6 21:25 cscd340lab3prob4.c~
+-rw-rw-r--  1 parallels parallels     3250 Oct  8 22:00 cscd340lab4prob1.c~
+-rw-rw-r--  1 parallels parallels      733 Oct  8 22:16 cscd340lab4prob2.c~
+-rw-rw-r--  1 parallels parallels     4961 Oct 10 15:53 cscd340lab4prob3.c~
+-rw-rw-r--  1 parallels parallels     6061 Oct 10 10:29 cscd340lab4prob4.c~
+-rw-rw-r--  1 parallels parallels     1729 Oct  6 21:18 cscd340_s13_lab1prob1.c~
+-rw-rw-r--  1 parallels parallels 32920365 Sep 29 12:27 CSCD340.zip
+-rw-rw-r--  1 parallels parallels       28 Oct 17 22:34 dfl;kj
+-rw-rw-r--  1 parallels parallels        0 Oct 15 16:43 grep
+drwxrwxr-x  3 parallels parallels     4096 Oct  1 09:55 Homeworks
+-rw-rw-r--  1 parallels parallels    11092 Oct 16 16:10 inProgress.zip
+-rw-rw-r--  1 parallels parallels       24 Oct 16 13:52 input.txt
+-rw-rw-r--  1 parallels parallels      170 Sep 30 18:38 input.txt~
+-rw-rw-r--  1 parallels parallels        0 Oct 17 22:35 jkl
+drwxrwxr-x  6 parallels parallels     4096 Oct 15 23:57 Labs
+-rw-rw-r--  1 parallels parallels     8394 Oct 16 13:20 linkedList.c
+-rw-rw-r--  1 parallels parallels     8395 Oct 16 13:09 linkedList.c~
+-rw-rw-r--  1 parallels parallels     1269 Oct 15 21:58 linkedList.h
+-rw-rw-r--  1 parallels parallels     1204 Oct 15 21:46 linkedList.h~
+-rw-rw-r--  1 parallels parallels      123 Oct 18 02:22 makefile
+-rw-rw-r--  1 parallels parallels      126 Oct 18 02:18 makefile~
+-rw-rw-r--  1 parallels parallels        0 Oct  2 14:48 myTextInput.txt~
+lrwxrwxrwx  1 root      root            10 Sep 25 14:14 Parallels Shared Folders -> /media/psf
+-rw-------  1 parallels parallels      637 Oct 16 13:39 pwd
+-rwxrwxr-x  1 parallels parallels    33012 Oct 18 09:04 shell
+-rw-rw-r--  1 parallels parallels    16590 Oct 18 09:04 shellUtil.c
+-rw-rw-r--  1 parallels parallels    16602 Oct 18 09:02 shellUtil.c~
+-rw-rw-r--  1 parallels parallels     1563 Oct 18 01:20 shellUtil.h
+-rw-rw-r--  1 parallels parallels     1563 Oct 18 01:20 shellUtil.h~
+-rw-rw-r--  1 parallels parallels     7807 Oct  2 23:39 sigcallout.txt~
+-rw-rw-r--  1 parallels parallels    27007 Oct  3 08:14 syscalloutjava.txt~
+-rw-rw-r--  1 parallels parallels     3946 Oct  3 08:01 syscallout.txt~
+-rw-rw-r--  1 parallels parallels      245 Oct  2 16:49 syscalls.c~
+-rw-rw-r--  1 parallels parallels      373 Oct  2 16:44 SysCalls.java~
+-rw-rw-r--  1 parallels parallels       50 Oct 18 03:09 test.txt
+-rw-rw-r--  1 parallels parallels        3 Oct 16 13:21 test.txt~
+-rw-rw-r--  1 parallels parallels      398 Oct 18 08:50 test.xt
+-rw-rw-r--  1 parallels parallels      390 Oct 18 08:50 test.xt~
+-rw-rw-r--  1 parallels parallels      691 Oct 18 08:47 text.tx
+-rw-------  1 parallels parallels      691 Oct 18 08:47 text.txt
+-rw-rw-r--  1 parallels parallels      699 Oct  2 16:11 txtToBinary.c~
+-rw-rw-r--  1 parallels parallels     2108 Sep 30 19:23 utility.c~
+-rw-rw-r--  1 parallels parallels      337 Sep 29 11:44 utility.h~
+-rw-rw-r--  1 parallels parallels        0 Oct 17 10:55 wc
+Exec Failed for prePipe Command
+: No such file or directory
+==11617== 
+==11617== HEAP SUMMARY:
+==11617==     in use at exit: 0 bytes in 0 blocks
+==11617==   total heap usage: 381 allocs, 381 frees, 6,664 bytes allocated
+==11617== 
+==11617== All heap blocks were freed -- no leaks are possible
+==11617== 
+==11617== For counts of detected and suppressed errors, rerun with: -v
+==11617== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+?: alias b='ls'
+?: alias
+
+Your aliases are:
+alias ls='ls --color=auto'
+alias b='ls'
+
+?: b
+binaryToText.c~      cscd340lab3prob3.c~       dfl;kj          linkedList.c              pwd                  syscallout.txt~  text.txt
+CSCD 240             cscd340lab3prob4.c~       grep            linkedList.c~             shell                syscalls.c~      txtToBinary.c~
+CSCD 240.zip         cscd340lab4prob1.c~       Homeworks       linkedList.h              shellUtil.c          SysCalls.java~   utility.c~
+cscd340_hw1.c~       cscd340lab4prob2.c~       inProgress.zip  linkedList.h~             shellUtil.c~         test.txt         utility.h~
+cscd340hw2.c         cscd340lab4prob3.c~       input.txt       makefile                  shellUtil.h          test.txt~        wc
+cscd340hw2.c~        cscd340lab4prob4.c~       input.txt~      makefile~                 shellUtil.h~         test.xt
+cscd340_lab2sigs.c~  cscd340_s13_lab1prob1.c~  jkl             myTextInput.txt~          sigcallout.txt~      test.xt~
+cscd340lab3prob1.c~  CSCD340.zip               Labs            Parallels Shared Folders  syscalloutjava.txt~  text.tx
+?: alias b='pwd'
+?: b
+/home/parallels/Desktop
+?: alias
+
+Your aliases are:
+alias ls='ls --color=auto'
+alias b='pwd'
+
+?: unalias b
+?: alias
+
+Your aliases are:
+alias ls='ls --color=auto'
+
+?: alias b
+Command Not Found!
+?: alias b=
+Command Not Found!
+?: echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games/myDATA/myProgs
+?: history
+
+Your History includes the following:
+96 echo $PATH 
+97 PATH=$PATH:/Desktop 
+98 echo $PATH 
+99 PATH=$PATH:junk 
+100 echo $PATH 
+101 clear 
+102 echo $PATH 
+103 $PATH 
+104 clear 
+105 history 
+
+?: !!      
+
+Your History includes the following:
+97 PATH=$PATH:/Desktop 
+98 echo $PATH 
+99 PATH=$PATH:junk 
+100 echo $PATH 
+101 clear 
+102 echo $PATH 
+103 $PATH 
+104 clear 
+105 history 
+106 !! 
+
+?: !104
+
+?: ~jk
+Error: Exec Failed
+==19339== 
+==19339== HEAP SUMMARY:
+==19339==     in use at exit: 0 bytes in 0 blocks
+==19339==   total heap usage: 357 allocs, 357 frees, 5,869 bytes allocated
+==19339== 
+==19339== All heap blocks were freed -- no leaks are possible
+==19339== 
+==19339== For counts of detected and suppressed errors, rerun with: -v
+==19339== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+?: !jk;  
+Error: Exec Failed
+==19352== 
+==19352== HEAP SUMMARY:
+==19352==     in use at exit: 0 bytes in 0 blocks
+==19352==   total heap usage: 362 allocs, 362 frees, 5,927 bytes allocated
+==19352== 
+==19352== All heap blocks were freed -- no leaks are possible
+==19352== 
+==19352== For counts of detected and suppressed errors, rerun with: -v
+==19352== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+?: !!jk;lj
+Error: Exec Failed
+==19426== 
+==19426== HEAP SUMMARY:
+==19426==     in use at exit: 0 bytes in 0 blocks
+==19426==   total heap usage: 367 allocs, 367 frees, 5,991 bytes allocated
+==19426== 
+==19426== All heap blocks were freed -- no leaks are possible
+==19426== 
+==19426== For counts of detected and suppressed errors, rerun with: -v
+==19426== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+?: clear  
+
+?: junk < text.txt
+Error: Exec Failed
+==19492== 
+==19492== HEAP SUMMARY:
+==19492==     in use at exit: 0 bytes in 0 blocks
+==19492==   total heap usage: 377 allocs, 377 frees, 6,120 bytes allocated
+==19492== 
+==19492== All heap blocks were freed -- no leaks are possible
+==19492== 
+==19492== For counts of detected and suppressed errors, rerun with: -v
+==19492== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+?: ls < text.txt
+binaryToText.c~		  Homeworks		    shellUtil.h
+CSCD 240		  inProgress.zip	    shellUtil.h~
+CSCD 240.zip		  input.txt		    sigcallout.txt~
+cscd340_hw1.c~		  input.txt~		    syscalloutjava.txt~
+cscd340hw2.c		  jkl			    syscallout.txt~
+cscd340hw2.c~		  Labs			    syscalls.c~
+cscd340_lab2sigs.c~	  linkedList.c		    SysCalls.java~
+cscd340lab3prob1.c~	  linkedList.c~		    test.txt
+cscd340lab3prob3.c~	  linkedList.h		    test.txt~
+cscd340lab3prob4.c~	  linkedList.h~		    test.xt
+cscd340lab4prob1.c~	  makefile		    test.xt~
+cscd340lab4prob2.c~	  makefile~		    text.tx
+cscd340lab4prob3.c~	  myTextInput.txt~	    text.txt
+cscd340lab4prob4.c~	  Parallels Shared Folders  txtToBinary.c~
+cscd340_s13_lab1prob1.c~  pwd			    utility.c~
+CSCD340.zip		  shell			    utility.h~
+dfl;kj			  shellUtil.c		    wc
+grep			  shellUtil.c~
+?: wc -w < text.txt
+57
+?: pwd >> text.txt
+?: ls | wc -w >> text.txt
+?: cd ../ 
+?: pwd
+/home/parallels
+?: cd Desktop/
+?: pwd
+/home/parallels/Desktop
+?: exit
+==18961== 
+==18961== HEAP SUMMARY:
+==18961==     in use at exit: 0 bytes in 0 blocks
+==18961==   total heap usage: 418 allocs, 418 frees, 7,199 bytes allocated
+==18961== 
+==18961== All heap blocks were freed -- no leaks are possible
+==18961== 
+==18961== For counts of detected and suppressed errors, rerun with: -v
+==18961== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+parallels@ubuntu:~/Desktop$
+

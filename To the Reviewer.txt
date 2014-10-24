@@ -1,0 +1,8 @@
+Dear Reviewer:
+
+These are two examples that I completed. One of them is in java and is the Dijkstra Algorithm. You will see specifics if you look at the code.
+
+The other example is a C program. It is my recreation of the Unix shell. This shows I understand operating systems and have a deep understanding of coding.
+
+
+Thanks for looking.
